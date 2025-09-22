@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Wycliffe Sure | Web Development & Consulting</title>
+    <meta name="description" content="Professional web development services including custom websites, mobile apps, consulting, and technical solutions. Get in touch for your next project.">
+    <meta name="keywords" content="web development services, custom websites, mobile apps, consulting, technical solutions, full stack development">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Wycliffe Sure</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="services.html" class="nav-link active">Services</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding-top: 120px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-on-scroll">My Services</h1>
+                <p class="hero-description animate-on-scroll">
+                    Comprehensive web development solutions tailored to your business needs. 
+                    From concept to deployment, I'm here to bring your digital vision to life.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section class="section" id="services-overview">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What I Offer</h2>
+            <div class="grid grid-3">
+                <!-- Web Development -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="card-title">Web Development</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Custom websites and web applications built with modern technologies, 
+                            responsive design, and optimized performance.
+                        </p>
+                        <ul>
+                            <li>Custom Website Development</li>
+                            <li>E-commerce Solutions</li>
+                            <li>Web Applications</li>
+                            <li>API Development</li>
+                            <li>Database Design</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Mobile Development -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="card-title">Mobile Development</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Cross-platform mobile applications that provide native performance 
+                            and user experience across iOS and Android devices.
+                        </p>
+                        <ul>
+                            <li>React Native Apps</li>
+                            <li>Progressive Web Apps</li>
+                            <li>Mobile UI/UX Design</li>
+                            <li>App Store Deployment</li>
+                            <li>Push Notifications</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">PWA</span>
+                        <span class="tech-tag">iOS</span>
+                        <span class="tech-tag">Android</span>
+                    </div>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="card-title">UI/UX Design</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            User-centered design solutions that create intuitive, 
+                            accessible, and engaging digital experiences.
+                        </p>
+                        <ul>
+                            <li>User Interface Design</li>
+                            <li>User Experience Research</li>
+                            <li>Wireframing & Prototyping</li>
+                            <li>Design Systems</li>
+                            <li>Usability Testing</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Adobe XD</span>
+                        <span class="tech-tag">Sketch</span>
+                        <span class="tech-tag">InVision</span>
+                    </div>
+                </div>
+
+                <!-- Technical Consulting -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="card-title">Technical Consulting</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Expert guidance on technology decisions, architecture planning, 
+                            and optimization strategies for your digital projects.
+                        </p>
+                        <ul>
+                            <li>Technology Strategy</li>
+                            <li>Code Review & Audit</li>
+                            <li>Performance Optimization</li>
+                            <li>Security Assessment</li>
+                            <li>Team Mentoring</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">Architecture</span>
+                        <span class="tech-tag">Security</span>
+                        <span class="tech-tag">Performance</span>
+                        <span class="tech-tag">Best Practices</span>
+                    </div>
+                </div>
+
+                <!-- E-commerce Solutions -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3 class="card-title">E-commerce Solutions</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Complete e-commerce platforms with payment processing, 
+                            inventory management, and customer relationship tools.
+                        </p>
+                        <ul>
+                            <li>Online Store Development</li>
+                            <li>Payment Integration</li>
+                            <li>Inventory Management</li>
+                            <li>Order Processing</li>
+                            <li>Analytics & Reporting</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">PayPal</span>
+                        <span class="tech-tag">WooCommerce</span>
+                        <span class="tech-tag">Shopify</span>
+                    </div>
+                </div>
+
+                <!-- Maintenance & Support -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="card-title">Maintenance & Support</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Ongoing maintenance, updates, and support to keep your 
+                            digital solutions running smoothly and securely.
+                        </p>
+                        <ul>
+                            <li>Regular Updates</li>
+                            <li>Security Patches</li>
+                            <li>Performance Monitoring</li>
+                            <li>Bug Fixes</li>
+                            <li>24/7 Support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <span class="tech-tag">Monitoring</span>
+                        <span class="tech-tag">Updates</span>
+                        <span class="tech-tag">Security</span>
+                        <span class="tech-tag">Support</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Overview -->
+    <section class="section" id="process">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">My Development Process</h2>
+            <div class="grid grid-4">
+                <!-- Step 1 -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3 class="card-title">1. Discovery</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            We start with a thorough discussion about your project goals, 
+                            target audience, and technical requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-drafting-compass"></i>
+                        </div>
+                        <h3 class="card-title">2. Planning</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            I create detailed project plans, wireframes, and technical 
+                            specifications to ensure we're aligned on the vision.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-hammer"></i>
+                        </div>
+                        <h3 class="card-title">3. Development</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Using agile methodologies, I build your solution with regular 
+                            updates and opportunities for feedback and iteration.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="card-title">4. Launch</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            After thorough testing, I deploy your solution and provide 
+                            training and documentation for ongoing success.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Information -->
+    <section class="section" id="pricing">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Pricing & Packages</h2>
+            <div class="grid grid-3">
+                <!-- Basic Package -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <h3 class="card-title">Basic Website</h3>
+                        <p class="card-subtitle">Perfect for small businesses</p>
+                        <div class="pricing">
+                            <span class="price">$2,500</span>
+                            <span class="period">starting</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Up to 5 pages</li>
+                            <li>Responsive design</li>
+                            <li>Contact form</li>
+                            <li>Basic SEO optimization</li>
+                            <li>1 month support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="contact.html" class="btn btn-secondary">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Professional Package -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <h3 class="card-title">Professional Website</h3>
+                        <p class="card-subtitle">Most popular choice</p>
+                        <div class="pricing">
+                            <span class="price">$5,000</span>
+                            <span class="period">starting</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Up to 10 pages</li>
+                            <li>Custom design</li>
+                            <li>CMS integration</li>
+                            <li>Advanced SEO</li>
+                            <li>3 months support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="contact.html" class="btn btn-primary">Get Quote</a>
+                    </div>
+                </div>
+
+                <!-- Enterprise Package -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <h3 class="card-title">Enterprise Solution</h3>
+                        <p class="card-subtitle">For complex requirements</p>
+                        <div class="pricing">
+                            <span class="price">$15,000</span>
+                            <span class="period">starting</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <ul>
+                            <li>Unlimited pages</li>
+                            <li>Custom functionality</li>
+                            <li>API integration</li>
+                            <li>Performance optimization</li>
+                            <li>6 months support</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="contact.html" class="btn btn-secondary">Get Quote</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5 animate-on-scroll">
+                <p class="hero-description">
+                    All projects are custom-quoted based on specific requirements. 
+                    Contact me for a detailed proposal tailored to your needs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What Clients Say</h2>
+            <div class="grid grid-3">
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p>
+                            "Alex delivered an exceptional e-commerce platform that exceeded our expectations. 
+                            His attention to detail and user experience was outstanding. Highly recommended!"
+                        </p>
+                        <div class="card-footer">
+                            <strong>Sarah Chen</strong><br>
+                            <small>CEO, TechStart Inc.</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p>
+                            "Working with Alex was a pleasure. He understood our requirements perfectly 
+                            and delivered a solution that was both functional and beautiful. Great communication throughout."
+                        </p>
+                        <div class="card-footer">
+                            <strong>Michael Rodriguez</strong><br>
+                            <small>Product Manager, Digital Agency</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <div class="card-content">
+                        <p>
+                            "The mobile app Alex developed for us has been a game-changer. 
+                            The performance and user interface are top-notch. We've seen a 40% increase in user engagement."
+                        </p>
+                        <div class="card-footer">
+                            <strong>Emily Johnson</strong><br>
+                            <small>Founder, MobileFirst Co.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="faq">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Frequently Asked Questions</h2>
+            <div class="grid grid-2">
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">How long does a typical project take?</h3>
+                    <p>
+                        Project timelines vary based on complexity. A simple website typically takes 2-4 weeks, 
+                        while complex web applications can take 2-6 months. I provide detailed timelines during our initial consultation.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Do you provide ongoing support?</h3>
+                    <p>
+                        Yes! I offer maintenance and support packages to keep your website updated, secure, 
+                        and running smoothly. This includes regular updates, security patches, and performance monitoring.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">What technologies do you work with?</h3>
+                    <p>
+                        I specialize in modern web technologies including React, Vue.js, Node.js, MongoDB, 
+                        PostgreSQL, and various cloud platforms. I choose the best technology stack for each project.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Can you work with my existing team?</h3>
+                    <p>
+                        Absolutely! I'm experienced in collaborating with in-house teams, designers, 
+                        and other developers. I can integrate seamlessly with your existing workflow and processes.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Do you offer training and documentation?</h3>
+                    <p>
+                        Yes, I provide comprehensive documentation and training sessions to help your team 
+                        understand and maintain the solutions I build. This ensures long-term success for your project.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">What's included in your pricing?</h3>
+                    <p>
+                        My pricing includes design, development, testing, deployment, and initial support. 
+                        I provide detailed breakdowns so you know exactly what you're getting for your investment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" id="services-cta">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <h2 class="section-title">Ready to Start Your Project?</h2>
+                <p class="hero-description">
+                    Let's discuss your project requirements and create a solution that drives your business forward. 
+                    I'm here to help you succeed in the digital world.
+                </p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Started Today</a>
+                    <a href="portfolio.html" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wycliffe Sure</h3>
+                    <p>Full Stack Developer passionate about creating amazing digital experiences.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/wycliffesure/" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/babulele" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:mitundawycliffe@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p>Web Development</p>
+                    <p>Mobile Apps</p>
+                    <p>UI/UX Design</p>
+                    <p>Technical Consulting</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> mitundawycliffe@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +254797548429</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wycliffe Sure. All rights reserved. | Built with ❤️ and modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

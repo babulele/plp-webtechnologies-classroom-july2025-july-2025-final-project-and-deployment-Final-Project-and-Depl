@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Wycliffe Sure | Get In Touch for Your Next Project</title>
+    <meta name="description" content="Get in touch with Wycliffe Sure for your web development needs. Contact form, direct information, and multiple ways to reach out for your next project.">
+    <meta name="keywords" content="contact, web developer, get in touch, project inquiry, Wycliffe Sure, consultation">
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Wycliffe Sure</a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding-top: 120px;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-on-scroll">Get In Touch</h1>
+                <p class="hero-description animate-on-scroll">
+                    Ready to start your next project? I'd love to hear from you. 
+                    Let's discuss how we can bring your ideas to life.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section" id="contact-info">
+        <div class="container">
+            <div class="grid grid-3">
+                <!-- Email -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="card-title">Email Me</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>For project inquiries and general questions</p>
+                        <p><strong>mitundawycliffe@gmail.com</strong></p>
+                        <p><small>I typically respond within 24 hours</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="mailto:mitundawycliffe@gmail.com" class="btn btn-primary">Send Email</a>
+                    </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3 class="card-title">Call Me</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>For urgent matters and phone consultations</p>
+                        <p><strong>+254797548429</strong></p>
+                        <p><small>Mon-Fri, 9 AM - 6 PM PST</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="tel:+15551234567" class="btn btn-primary">Call Now</a>
+                    </div>
+                </div>
+
+                <!-- Location -->
+                <div class="card animate-on-scroll">
+                    <div class="card-header">
+                        <div class="skill-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3 class="card-title">Location</h3>
+                    </div>
+                    <div class="card-content">
+                        <p>Based in Nairobi, Kenya</p>
+                        <p><strong>Available for remote work</strong></p>
+                        <p><small>Open to travel for on-site meetings</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">View on Map</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section" id="contact-form">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="animate-on-scroll">
+                    <h2 class="section-title text-left">Send Me a Message</h2>
+                    <p>
+                        Have a project in mind? Fill out the form and I'll get back to you within 24 hours. 
+                        The more details you provide, the better I can understand your needs and provide an accurate proposal.
+                    </p>
+                    <p>
+                        <strong>What to include:</strong>
+                    </p>
+                    <ul>
+                        <li>Project description and goals</li>
+                        <li>Target timeline and budget range</li>
+                        <li>Any specific requirements or preferences</li>
+                        <li>Questions you'd like to discuss</li>
+                    </ul>
+                </div>
+                
+                <div class="animate-on-scroll">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company/Organization</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="project-type" class="form-label">Project Type</label>
+                            <select id="project-type" name="project-type" class="form-select">
+                                <option value="">Select a project type</option>
+                                <option value="website">Website Development</option>
+                                <option value="webapp">Web Application</option>
+                                <option value="mobile">Mobile App</option>
+                                <option value="ecommerce">E-commerce Solution</option>
+                                <option value="consulting">Technical Consulting</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget" class="form-label">Budget Range</label>
+                            <select id="budget" name="budget" class="form-select">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="over-50k">Over $50,000</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timeline" class="form-label">Project Timeline</label>
+                            <select id="timeline" name="timeline" class="form-select">
+                                <option value="">Select timeline</option>
+                                <option value="asap">ASAP</option>
+                                <option value="1-month">Within 1 month</option>
+                                <option value="2-3-months">2-3 months</option>
+                                <option value="3-6-months">3-6 months</option>
+                                <option value="flexible">Flexible</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Project Details *</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required placeholder="Please describe your project, goals, and any specific requirements..."></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-label">
+                                <input type="checkbox" name="newsletter" value="yes">
+                                Subscribe to my newsletter for web development tips and updates
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section class="section" id="social-media">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Connect With Me</h2>
+            <div class="text-center animate-on-scroll">
+                <p class="hero-description">
+                    Follow me on social media for web development insights, project updates, and industry news.
+                </p>
+                <div class="social-links" style="justify-content: center; margin-top: 2rem;">
+                    <a href="https://www.linkedin.com/in/wycliffesure/" class="social-link" aria-label="LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/babulele" class="social-link" aria-label="GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="mailto:mitundawycliffe@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" id="contact-faq">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Frequently Asked Questions</h2>
+            <div class="grid grid-2">
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">How quickly do you respond to inquiries?</h3>
+                    <p>
+                        I typically respond to all inquiries within 24 hours during business days. 
+                        For urgent matters, feel free to call me directly.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Do you offer free consultations?</h3>
+                    <p>
+                        Yes! I offer a free 30-minute consultation to discuss your project requirements 
+                        and determine if we're a good fit for working together.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">What information should I include in my message?</h3>
+                    <p>
+                        Please include your project goals, timeline, budget range, and any specific requirements. 
+                        The more details you provide, the better I can help you.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Do you work with clients outside Kenya and Africa?</h3>
+                    <p>
+                        Absolutely! I work with clients worldwide. Most of my work is done remotely, 
+                        and I'm comfortable working across different time zones.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">What's your typical project timeline?</h3>
+                    <p>
+                        Project timelines vary based on complexity. Simple websites take 2-4 weeks, 
+                        while complex applications can take 2-6 months. I provide detailed timelines during our consultation.
+                    </p>
+                </div>
+
+                <div class="card animate-on-scroll">
+                    <h3 class="card-title">Do you provide ongoing support after project completion?</h3>
+                    <p>
+                        Yes! I offer maintenance and support packages to keep your project updated, 
+                        secure, and running smoothly. This includes regular updates and performance monitoring.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" id="contact-cta">
+        <div class="container">
+            <div class="text-center animate-on-scroll">
+                <h2 class="section-title">Ready to Start Your Project?</h2>
+                <p class="hero-description">
+                    Don't wait to bring your ideas to life. Contact me today and let's discuss 
+                    how we can create something amazing together.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact-form" class="btn btn-primary">Send Message</a>
+                    <a href="portfolio.html" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Wycliffe Sure</h3>
+                    <p>Full Stack Developer passionate about creating amazing digital experiences.</p>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/wycliffesure/" class="social-link" aria-label="LinkedIn" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/babulele" class="social-link" aria-label="GitHub" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:mitundawycliffe@gmail.com" class="social-link" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About</a></p>
+                    <p><a href="portfolio.html">Portfolio</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p>Web Development</p>
+                    <p>Mobile Apps</p>
+                    <p>UI/UX Design</p>
+                    <p>Technical Consulting</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> mitundawycliffe@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +254797548429</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wycliffe Sure. All rights reserved. | Built with ❤️ and modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
