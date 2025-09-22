@@ -9,7 +9,7 @@
 
 ## 🌟 Live Demo
 
-**🌐 [View Live Website](https://your-deployed-url.com)** *(Coming Soon)*
+**🌐 [View Live Website]https://babulele.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
 
 ## 📋 Project Overview
 
